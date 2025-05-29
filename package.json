@@ -1,0 +1,21 @@
+{
+  "name": "homepage",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.8.0",
+  "scripts": {
+    "build": "pnpm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "valaxy": "0.23.4",
+    "valaxy-theme-gitlink": "^0.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
