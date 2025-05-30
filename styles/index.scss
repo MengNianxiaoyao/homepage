@@ -1,1 +1,111 @@
 // you can custom css here
+@use "./css-vars.scss";
+
+// 个性化样式
+.tip.custom-block,
+.info.custom-block {
+    border-color: #428bca;
+    color: white;
+    background-color: #428bca;
+
+    a,
+    code {
+        color: yellow;
+
+        &:hover {
+            color: yellow;
+        }
+    }
+}
+
+.warning.custom-block {
+    border-color: #FF8C00;
+    color: white;
+    background-color: #FF8C00;
+}
+
+.danger.custom-block {
+    border-color: #F56C6C;
+    color: white;
+    background-color: #F56C6C;
+}
+
+.markdown-body code {
+    background-color: #0075e0;
+    color: white;
+}
+
+.say,
+.yun-notice {
+    backdrop-filter: blur(10px);
+}
+
+.markdown-body strong {
+    color: #425AEF;
+}
+
+.markdown-body [class*=language-] {
+    button.copy, button.collapse {
+        cursor: var(--cursor-pointer); 
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+}
+
+/* 滑块部分 */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--va-c-primary);
+    cursor: var(--cursor-pointer);
+}
+
+/* 轨道部分 */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #ededed;
+    border-radius: 5px;
+    cursor: var(--cursor-pointer);
+}
+
+// 鼠标样式
+html,
+body {
+    cursor: var(--cursor-default);
+}
+
+a,
+button,
+.markdown-body img,
+.cursor-pointer {
+    cursor: var(--cursor-pointer);
+
+    &:hover {
+        cursor: var(--cursor-pointer);
+    }
+}
+
+.pagination {
+    .page-number.active {
+        cursor: var(--cursor-default) !important;
+    }
+
+    .page-number {
+        cursor: var(--cursor-pointer) !important;
+    }
+}
+
+.yun-fuse-search .yun-fuse-result-item {
+    cursor: var(--cursor-pointer);
+}
+
+input,
+textarea {
+    cursor: var(--cursor-text);
+}
+
+summary:hover {
+    cursor: var(--cursor-pointer);
+}

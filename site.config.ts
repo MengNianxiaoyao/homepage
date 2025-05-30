@@ -14,9 +14,9 @@ export default defineSiteConfig({
   description: '欢迎来到梦念逍遥の个人主页.',
   social: [
     {
-      name: 'RSS',
-      link: '/atom.xml',
-      icon: 'i-ri-rss-line',
+      name: '博客',
+      link: 'https://blog.mnxy.eu.org',
+      icon: 'i-fa6-solid-blog',
       color: 'orange',
     },
     {
