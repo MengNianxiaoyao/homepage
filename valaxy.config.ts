@@ -9,4 +9,10 @@ export default defineValaxyConfig<UserThemeConfig>({
   // theme config see theme.config.ts
 
   theme: 'gitlink',
+
+  modules: {
+    rss: {
+      enable: false,
+    },
+  },
 })
