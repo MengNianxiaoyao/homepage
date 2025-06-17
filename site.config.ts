@@ -9,7 +9,7 @@ export default defineSiteConfig({
     name: '梦念逍遥',
     email: 'email@mnxy.eu.org',
     link: 'https://www.mnxy.eu.org',
-    avatar: '/favicon.svg',
+    avatar: 'https://cdn.jsdmirror.com/gh/MengNianxiaoyao/friends@gh-pages/favicon.svg',
   },
   description: '欢迎来到梦念逍遥の个人主页.',
   social: [
