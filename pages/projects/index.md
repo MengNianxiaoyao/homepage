@@ -15,6 +15,7 @@ projects:
         desc: 梦念逍遥 の GKD 订阅规则
         color: steelblue
         github: MengNianxiaoyao/gkd-subscription
+        url: https://registry.npmmirror.com/gkd-subscription/latest/files
       - name: twikoo
         emoji: 📱
         desc: Twikoo评论系统，使用GitHub Action自动更新
