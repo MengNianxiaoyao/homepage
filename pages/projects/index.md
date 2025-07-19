@@ -20,6 +20,11 @@ projects:
         desc: Twikoo评论系统，使用GitHub Action自动更新
         color: green
         github: MengNianxiaoyao/twikoo
+      - name: site-status
+        emoji: 📺
+        desc: 一个基于 UptimeRobot API 的在线状态面板 | 站点监测 | 状态检测
+        color: '#06D53A'
+        github: MengNianxiaoyao/site-status
 
   plugins:
     title: 🔌 插件
@@ -29,6 +34,11 @@ projects:
         desc: valaxy 获取 ip 定位的各种信息插件
         color: blue
         github: MengNianxiaoyao/valaxy-addon-iplocation
+      - name: typora-plugin-bilibili
+        emoji: 🖼️
+        desc: Typora的Bilibili图床插件
+        color: '#FB7299'
+        github: MengNianxiaoyao/typora-plugin-bilibili
 
   open_source:
     title: 👥 参与
