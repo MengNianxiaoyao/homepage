@@ -15,7 +15,7 @@ export default defineSiteConfig({
   social: [
     {
       name: '博客',
-      link: 'https://blog.mnxy.eu.org',
+      link: 'https://blog.mnxyio.top',
       icon: 'i-fa6-solid-blog',
       color: 'orange',
     },
@@ -45,7 +45,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:email@mnxy.eu.org',
+      link: 'mailto:email@mnxyio.top',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
@@ -57,7 +57,7 @@ export default defineSiteConfig({
     },
     {
       name: '站点监测',
-      link: 'https://status.mnxy.eu.org',
+      link: 'https://status.mnxyio.top',
       icon: 'i-simple-icons-uptimekuma',
       color: '#3BD671',
     },
