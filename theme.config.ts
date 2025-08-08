@@ -22,5 +22,9 @@ export default defineThemeConfig({
             title: '梦念逍遥のGitHub',
         },
         powered: true,
+        beian: {
+            enable: true,
+            icp: '赣ICP备2025069243号-1',
+        },
     },
 })

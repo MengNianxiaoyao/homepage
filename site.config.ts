@@ -1,14 +1,14 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://www.mnxy.eu.org/',
+  url: 'https://www.mnxyio.top/',
   lang: 'zh-CN',
-  title: '梦念逍遥の个人主页',
+  title: '梦念逍遥的笔记 - 个人主页',
   subtitle: '',
   author: {
     name: '梦念逍遥',
     email: 'email@mnxy.eu.org',
-    link: 'https://www.mnxy.eu.org',
+    link: 'https://www.mnxyio.top',
     avatar: 'https://cdn.jsdmirror.com/gh/MengNianxiaoyao/blogassets@main/favicon.svg',
   },
   description: '欢迎来到梦念逍遥の个人主页.',
