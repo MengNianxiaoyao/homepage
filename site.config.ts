@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '',
   author: {
     name: '梦念逍遥',
-    email: 'email@mnxy.eu.org',
+    email: 'email@mnxyio.top',
     link: 'https://www.mnxyio.top',
     avatar: 'https://cdn.jsdmirror.com/gh/MengNianxiaoyao/blogassets@main/favicon.svg',
   },
