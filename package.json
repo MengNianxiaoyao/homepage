@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@iconify-json/fa6-solid": "^1.2.3",
-    "valaxy": "0.25.8",
+    "valaxy": "0.26.2",
     "valaxy-theme-gitlink": "^0.1.9"
   },
   "devDependencies": {
