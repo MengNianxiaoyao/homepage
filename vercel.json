@@ -1,9 +1,9 @@
 {
   "name": "homepage",
-  "framework": null,
+  "framework": "vite",
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
-  "installCommand": "pnpm install",
+  "installCommand": "pnpm install --frozen-lockfile",
   "cleanUrls": true,
   "headers": [
     {
