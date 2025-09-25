@@ -2,7 +2,7 @@
   "name": "homepage",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.17.0",
   "scripts": {
     "build": "pnpm run build:ssg",
     "build:spa": "valaxy build",
