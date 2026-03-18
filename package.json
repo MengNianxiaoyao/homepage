@@ -2,7 +2,7 @@
   "name": "homepage",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.17.0",
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "build": "pnpm run build:ssg",
     "build:spa": "valaxy build",
@@ -13,13 +13,10 @@
   },
   "dependencies": {
     "@iconify-json/fa6-solid": "^1.2.3",
-    "valaxy": "0.26.5",
-    "valaxy-theme-gitlink": "^0.1.9"
+    "valaxy": "0.26.10",
+    "valaxy-theme-gitlink": "^0.1.13"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
-  },
-  "engines": {
-    "node": ">=20.0.0"
   }
 }

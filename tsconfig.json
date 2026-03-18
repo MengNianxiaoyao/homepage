@@ -9,6 +9,10 @@
     "paths": {
       "~/*": ["./*"]
     },
+    "types": [
+      "valaxy/client",
+      "vite-plugin-vue-layouts/client",
+    ],
     "resolveJsonModule": true,
     "strict": true,
     "strictNullChecks": true,
